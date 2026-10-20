@@ -1,0 +1,33 @@
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+.aws/
+*credentials*
+*.pem
+*.key
+
+# AI model files
+*.safetensors
+*.bin
+*.gguf
+models/
+checkpoints/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Editor settings
+.vscode/
+
+# Backup files
+*_backup.py
